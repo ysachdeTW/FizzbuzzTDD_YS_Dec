@@ -20,3 +20,4 @@ Best done with a pair!
 1. Use test-first TDD in a red-green-refactor cycle to write the application.
 2. Create a Git commit with each green test and each completed refactor.
 3. Switch driver and navigator between each commit if pairing.
+4. Include both developers' names in the commit message if pairing.
