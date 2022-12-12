@@ -7,7 +7,7 @@ Best done with a pair!
 
 ## Program Requirements
 
-1. The Fizzbuzz and Fizzbuzz class are already created.
+1. The Fizzbuzz and FizzbuzzTest class are already created.
 2. There should be one public method in the Fizzbuzz class that has 1 String for input and 1 String for output.
 3. The method should output the String "fizz" if a number divisible by 3 is input.
 4. The method should output the String "buzz" if a number divisible by 5 is input.
