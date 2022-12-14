@@ -33,4 +33,12 @@ class FizzbuzzTest {
         String result = fizzbuzz.generateFizzbuzz("2");
         assertEquals("not fizzy or buzzy",result);
     }
+
+    @Test
+    public void testFizzBuzzWithNoNumberInput(){
+        Fizzbuzz fizzbuzz= new Fizzbuzz();
+        String input= "No Number";
+        String result = fizzbuzz.generateFizzbuzz(input);
+        assertEquals(input,result);
+    }
 }
