@@ -6,7 +6,8 @@ public class Fizzbuzz {
         StringBuilder response= new StringBuilder();
          int input =Integer.parseInt(inputString);
 
-         if(input % 3 == 0) response.append("Fizz");
+         if(input % 3 == 0) response.append("fizz");
+         if(input % 5 == 0) response.append("buzz");
 
         return response.toString();
     }

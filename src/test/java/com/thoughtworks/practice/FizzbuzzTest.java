@@ -9,8 +9,16 @@ class FizzbuzzTest {
     public void testFizzBuzzIfDivisibleBy3(){
         Fizzbuzz fizzbuzz= new Fizzbuzz();
         String result = fizzbuzz.generateFizzbuzz("3");
-        assertEquals("Fizz",result);
+        assertEquals("fizz",result);
 
    }
 
+
+    @Test
+    public void testFizzBuzzIfDivisibleBy5(){
+        Fizzbuzz fizzbuzz= new Fizzbuzz();
+        String result = fizzbuzz.generateFizzbuzz("5");
+        assertEquals("buzz",result);
+
+    }
 }
