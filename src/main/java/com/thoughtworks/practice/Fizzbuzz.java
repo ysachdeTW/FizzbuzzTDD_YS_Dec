@@ -8,6 +8,7 @@ public class Fizzbuzz {
 
          if(input % 3 == 0) response.append("fizz");
          if(input % 5 == 0) response.append("buzz");
+         if(response.isEmpty()) response.append("not fizzy or buzzy");
 
         return response.toString();
     }

@@ -10,7 +10,6 @@ class FizzbuzzTest {
         Fizzbuzz fizzbuzz= new Fizzbuzz();
         String result = fizzbuzz.generateFizzbuzz("3");
         assertEquals("fizz",result);
-
    }
 
 
@@ -19,7 +18,6 @@ class FizzbuzzTest {
         Fizzbuzz fizzbuzz= new Fizzbuzz();
         String result = fizzbuzz.generateFizzbuzz("5");
         assertEquals("buzz",result);
-
     }
 
 
@@ -28,6 +26,11 @@ class FizzbuzzTest {
         Fizzbuzz fizzbuzz= new Fizzbuzz();
         String result = fizzbuzz.generateFizzbuzz("15");
         assertEquals("fizzbuzz",result);
-
+    }
+    @Test
+    public void testFizzBuzzIfNotDivisibleBy3and5(){
+        Fizzbuzz fizzbuzz= new Fizzbuzz();
+        String result = fizzbuzz.generateFizzbuzz("2");
+        assertEquals("not fizzy or buzzy",result);
     }
 }
