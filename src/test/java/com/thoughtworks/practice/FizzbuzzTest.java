@@ -41,4 +41,10 @@ class FizzbuzzTest {
         String result = fizzbuzz.generateFizzbuzz(input);
         assertEquals(input,result);
     }
+    @Test
+    public void testFizzBuzzNullInput(){
+        Fizzbuzz fizzbuzz= new Fizzbuzz();
+        String result = fizzbuzz.generateFizzbuzz(null);
+        assertNull(result);
+    }
 }

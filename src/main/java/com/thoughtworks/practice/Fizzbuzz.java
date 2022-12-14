@@ -8,9 +8,9 @@ public class Fizzbuzz {
         try {
            input = Integer.parseInt(inputString);
         }catch (NumberFormatException e){
+            e.printStackTrace();
             return inputString;
         }
-
 
          if(input % 3 == 0) response.append("fizz");
          if(input % 5 == 0) response.append("buzz");
